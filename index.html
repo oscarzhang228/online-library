@@ -15,5 +15,41 @@
         <button>Log In</button>
       </nav>
     </header>
+    <main>
+      <div class="newBookContainer"><button id="newB">+ New Book</button></div>
+      <div class="addBook">
+        <form class="addBookForm">
+          <h1>Add New Book</h1>
+
+          <input
+            type="text"
+            id="title"
+            placeholder="Title"
+            maxlength="20"
+            required
+          />
+          <input
+            type="text"
+            id="author"
+            placeholder="Author"
+            maxlength="20"
+            required
+          />
+
+          <input
+            type="number"
+            id="pages"
+            placeholder="Pages"
+            min="1"
+            required
+          />
+          <button type="button" class="notRead" id="formRead">Read</button>
+          <div class="buttons">
+            <button type="button" id="cancel">Cancel</button
+            ><button type="submit">Add</button>
+          </div>
+        </form>
+      </div>
+    </main>
   </body>
 </html>

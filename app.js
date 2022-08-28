@@ -27,3 +27,5 @@ isRead.addEventListener("click", () => {
 cancelButton.addEventListener("click", () => {
   document.querySelector(".addBookForm").classList.toggle("display");
 });
+
+//once the class is added need to add an event listener on the buttons
